@@ -1,0 +1,29 @@
+# 私人数据
+.env
+.env.local
+data/
+downloads/
+
+# 依赖
+node_modules/
+.npm-cache/
+
+# 构建产物
+dist/
+web/dist/
+web/.vite/
+
+# 设计文档（含内部信息）
+web/ms/
+PROJECT_DOC.md
+
+# 日志
+*.log
+
+# Playwright
+playwright/.auth/
+.playwright-mcp/
+
+# 系统文件
+Thumbs.db
+.DS_Store

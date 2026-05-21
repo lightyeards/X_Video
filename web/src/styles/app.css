@@ -210,6 +210,7 @@ kbd {
   padding: 42px;
   border-radius: 34px;
   overflow: hidden;
+  will-change: transform;
 }
 
 .hero::before {
